@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 
 
 #データフレームの読み込み
-df_updown = pd.read_csv('df_immと日足終値_8週間後up or down_欠損値削除.csv',encoding='shift_jis',index_col=0)
+df_updown = pd.read_csv('df_imm_rate.csv',encoding='shift_jis',index_col=0)
 df_updown.index = pd.to_datetime(df_updown.index)
 
 
